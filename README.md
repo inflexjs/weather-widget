@@ -20,6 +20,6 @@ npm run build
     <script src="dist/weather-widget.js"></script>
 </head>
 <body>
-    <weather-widget></weather-widget>
+    <weather-widget api-key="your api key from www.openweathermap.org"></weather-widget>
 </body>
 ```
