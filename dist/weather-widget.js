@@ -86,21 +86,21 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 485:
+/***/ 373:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_c728dc8e_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(659);
-/* harmony import */ var _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_c728dc8e_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_c728dc8e_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_1dd52c34_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(19);
+/* harmony import */ var _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_1dd52c34_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_1dd52c34_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
-/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_c728dc8e_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_c728dc8e_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
+/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_1dd52c34_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== "default") __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => _node_modules_vue_style_loader_index_js_clonedRuleSet_22_use_0_node_modules_css_loader_dist_cjs_js_clonedRuleSet_22_use_1_node_modules_vue_vue_loader_v15_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_2_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_22_use_3_node_modules_sass_loader_dist_cjs_js_clonedRuleSet_22_use_4_node_modules_vue_vue_loader_v15_lib_index_js_vue_loader_options_WeatherWidget_vue_vue_type_style_index_0_id_1dd52c34_prod_lang_scss_shadow__WEBPACK_IMPORTED_MODULE_0__[__WEBPACK_IMPORT_KEY__]
 /* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
 
 
 /***/ }),
 
-/***/ 139:
+/***/ 65:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -112,27 +112,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(645);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(667);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);
 // Imports
 
 
-
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(339), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(16), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(941), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(392), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(550), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(752), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
-var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
-var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "@font-face{font-family:Source Sans Pro;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") format(\"woff2\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") format(\"woff\");font-weight:400;font-style:normal}@font-face{font-family:Source Sans Pro;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ") format(\"woff2\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_3___ + ") format(\"woff\");font-weight:600;font-style:normal}@font-face{font-family:Source Sans Pro;src:url(" + ___CSS_LOADER_URL_REPLACEMENT_4___ + ") format(\"woff2\"),url(" + ___CSS_LOADER_URL_REPLACEMENT_5___ + ") format(\"woff\");font-weight:700;font-style:normal}h2,p,span{margin:0;padding:0}.weather-widget{position:relative;font-family:Source Sans Pro,sans-serif;font-size:14px;font-weight:400;color:#545454;width:250px;box-shadow:0 2px 10px rgba(0,0,0,.1);border-radius:10px;min-height:270px;overflow:hidden}.weather-widget__container{padding:0 20px;margin:20px 5px 20px 0;height:100%;display:flex;flex-direction:column;max-height:650px;overflow-x:hidden;overflow-y:auto}.weather-widget__container::-webkit-scrollbar{width:4px}.weather-widget__container::-webkit-scrollbar-track{background-color:transparent;border-radius:100px}.weather-widget__container::-webkit-scrollbar-thumb{background-color:transparent;border-radius:4px}.weather-widget__container:hover::-webkit-scrollbar-track{background-color:hsla(0,0%,100%,.1)}.weather-widget__container:hover::-webkit-scrollbar-thumb{background-color:#dcdcdc}.weather-widget__field{position:relative}.weather-widget__field+.weather-widget__field{margin-top:20px;padding-top:20px}.weather-widget__field+.weather-widget__field:before{content:\"\";position:absolute;top:0;left:50%;width:80%;height:1px;background-color:#dcdcdc;transform:translateX(-50%)}.weather-widget__button{padding:0;width:20px;height:20px;text-align:center;font-family:inherit;font-size:inherit;border:none;background-color:transparent;cursor:pointer}.weather-widget__button svg{width:100%;height:100%;fill:#dcdcdc;transition:fill .1s ease-in}.weather-widget__button:disabled,.weather-widget__button[disabled]{cursor:default}.weather-widget__button:not(:disabled).weather-widget__button:hover svg{fill:#545454}.weather-widget__button:not(:disabled).weather-widget__button--delete:hover svg{fill:#ec9e9e}.weather-widget__button--settings{position:absolute;top:20px;right:20px;z-index:3}.weather-widget__button--delete{position:absolute;top:50%;right:5px;transform:translateY(-50%)}.weather-widget__button--drag{display:inline-block;vertical-align:middle;margin-right:5px;cursor:-webkit-grab;cursor:grab}.weather-widget__button--drag svg{fill:#545454}.weather-widget__button--enter{vertical-align:middle}.weather-widget__title{margin:0;padding:0;font-size:16px;font-weight:600}.weather-widget__temperature span{display:inline-block;vertical-align:middle;width:50%;text-align:left;font-weight:600;font-size:40px}.weather-widget__image{width:50%;display:inline-block;vertical-align:middle;text-align:center}.weather-widget__image img{height:100%;display:inline-block;vertical-align:middle}.weather-widget__description{margin-bottom:15px}.weather-widget__data{padding:0;margin:0 0 15px}.weather-widget__data li{position:relative;display:inline-block;vertical-align:middle;width:50%;text-align:center}.weather-widget__data li:before{content:\"\";position:absolute;left:0;top:50%;width:5px;height:5px;border-radius:50%;transform:translateY(-50%);background-color:#545454}.weather-widget__information{-moz-column-count:2;column-count:2;-moz-column-gap:5px;column-gap:5px}.weather-widget__text{page-break-inside:avoid;-moz-column-break-inside:avoid;break-inside:avoid}.weather-widget__text+.weather-widget__text{margin-top:10px}.weather-widget__loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.weather-widget__loading p{text-align:center;font-size:18px;font-weight:600}.weather-widget__loading svg{transform:translate(-50%,-50%);transform-origin:center;-webkit-animation:rotator 1.4s linear infinite;animation:rotator 1.4s linear infinite}.weather-widget__loading circle{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;stroke:#545454;-webkit-animation:dash 1.4s ease-in-out infinite;animation:dash 1.4s ease-in-out infinite}.weather-widget__menu{position:absolute;padding:20px;top:0;left:0;right:0;bottom:0;border-radius:10px;z-index:2;background-color:#fff}.weather-widget__list{flex-grow:1;margin-top:15px;margin-bottom:10px;height:calc(100% - 98px);overflow-x:hidden;overflow-y:auto}@media(hover:hover){.weather-widget__list::-webkit-scrollbar{width:4px}.weather-widget__list::-webkit-scrollbar-track{background-color:hsla(0,0%,100%,.1);border-radius:4px}.weather-widget__list::-webkit-scrollbar-thumb{background-color:#dcdcdc;border-radius:4px}}.weather-widget__location{position:relative;padding:5px;margin-right:5px;background-color:#f9f9f9}.weather-widget__location p{display:inline-block;vertical-align:middle}.weather-widget__location+.weather-widget__location{margin-top:15px}.weather-widget__label{font-weight:600;display:block;margin-bottom:5px}.weather-widget__wrapper input{width:80%}.weather-widget__wrapper button{width:20%}.weather-widget__input{padding:5px 10px;border-radius:2px;border:1px solid #dcdcdc;outline:none;box-sizing:border-box;width:80%;font-size:inherit;font-family:inherit;display:inline-block;vertical-align:middle}.weather-widget .fade-enter{opacity:0}.weather-widget .fade-enter-active{transition:opacity .1s ease-in!important}.weather-widget .fade-enter-to,.weather-widget .fade-leave{opacity:1}.weather-widget .fade-leave-active{transition:opacity .1s ease-out!important}.weather-widget .fade-leave-to{opacity:0}.weather-widget .fade-up-enter{transform:translateY(-10px);opacity:0}.weather-widget .fade-up-enter-active{transition:all .3s ease}.weather-widget .fade-up-enter-to,.weather-widget .fade-up-leave{transform:translate(0);opacity:1}.weather-widget .fade-up-leave-active{transition:all .1s ease}.weather-widget .fade-up-leave-to{transform:translateY(-10px);opacity:0}@-webkit-keyframes rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}@keyframes rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}@-webkit-keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}@keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "h2,p,span{margin:0;padding:0}.weather-widget{position:relative;font-size:14px;font-weight:400;color:#545454;width:250px;box-shadow:0 2px 10px rgba(0,0,0,.1);border-radius:10px;min-height:270px;overflow:hidden}.weather-widget__container{padding:0 20px;margin:20px 5px 20px 0;height:100%;display:flex;flex-direction:column;max-height:650px;overflow-x:hidden;overflow-y:auto}.weather-widget__container::-webkit-scrollbar{width:4px}.weather-widget__container::-webkit-scrollbar-track{background-color:transparent;border-radius:100px}.weather-widget__container::-webkit-scrollbar-thumb{background-color:transparent;border-radius:4px}.weather-widget__container:hover::-webkit-scrollbar-track{background-color:hsla(0,0%,100%,.1)}.weather-widget__container:hover::-webkit-scrollbar-thumb{background-color:#dcdcdc}.weather-widget__field{position:relative}.weather-widget__field+.weather-widget__field{margin-top:20px;padding-top:20px}.weather-widget__field+.weather-widget__field:before{content:\"\";position:absolute;top:0;left:50%;width:80%;height:1px;background-color:#dcdcdc;transform:translateX(-50%)}.weather-widget__button{padding:0;width:20px;height:20px;text-align:center;font-family:inherit;font-size:inherit;border:none;background-color:transparent;cursor:pointer}.weather-widget__button svg{width:100%;height:100%;fill:#dcdcdc;transition:fill .1s ease-in}.weather-widget__button:disabled,.weather-widget__button[disabled]{cursor:default}.weather-widget__button:not(:disabled).weather-widget__button:hover svg{fill:#545454}.weather-widget__button:not(:disabled).weather-widget__button--delete:hover svg{fill:#ec9e9e}.weather-widget__button--settings{position:absolute;top:20px;right:20px;z-index:3}.weather-widget__button--delete{position:absolute;top:50%;right:5px;transform:translateY(-50%)}.weather-widget__button--drag{display:inline-block;vertical-align:middle;margin-right:5px;cursor:-webkit-grab;cursor:grab}.weather-widget__button--drag svg{fill:#545454}.weather-widget__button--enter{vertical-align:middle}.weather-widget__title{margin:0;padding:0;font-size:16px;font-weight:600}.weather-widget__temperature span{display:inline-block;vertical-align:middle;width:50%;text-align:left;font-weight:600;font-size:40px}.weather-widget__image{width:50%;display:inline-block;vertical-align:middle;text-align:center}.weather-widget__image img{height:100%;display:inline-block;vertical-align:middle}.weather-widget__description{margin-bottom:15px}.weather-widget__data{padding:0;margin:0 0 15px}.weather-widget__data li{position:relative;display:inline-block;vertical-align:middle;width:50%;text-align:center}.weather-widget__data li:before{content:\"\";position:absolute;left:0;top:50%;width:5px;height:5px;border-radius:50%;transform:translateY(-50%);background-color:#545454}.weather-widget__information{-moz-column-count:2;column-count:2;-moz-column-gap:5px;column-gap:5px}.weather-widget__text{page-break-inside:avoid;-moz-column-break-inside:avoid;break-inside:avoid}.weather-widget__text+.weather-widget__text{margin-top:10px}.weather-widget__loading{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}.weather-widget__loading p{text-align:center;font-size:18px;font-weight:600}.weather-widget__loading svg{transform:translate(-50%,-50%);transform-origin:center;-webkit-animation:rotator 1.4s linear infinite;animation:rotator 1.4s linear infinite}.weather-widget__loading circle{stroke-dasharray:187;stroke-dashoffset:0;transform-origin:center;stroke:#545454;-webkit-animation:dash 1.4s ease-in-out infinite;animation:dash 1.4s ease-in-out infinite}.weather-widget__menu{position:absolute;padding:20px;top:0;left:0;right:0;bottom:0;border-radius:10px;z-index:2;background-color:#fff}.weather-widget__list{flex-grow:1;margin-top:15px;margin-bottom:10px;height:calc(100% - 98px);overflow-x:hidden;overflow-y:auto}@media(hover:hover){.weather-widget__list::-webkit-scrollbar{width:4px}.weather-widget__list::-webkit-scrollbar-track{background-color:hsla(0,0%,100%,.1);border-radius:4px}.weather-widget__list::-webkit-scrollbar-thumb{background-color:#dcdcdc;border-radius:4px}}.weather-widget__location{position:relative;padding:5px;margin-right:5px;background-color:#f9f9f9}.weather-widget__location p{display:inline-block;vertical-align:middle}.weather-widget__location+.weather-widget__location{margin-top:15px}.weather-widget__label{font-weight:600;display:block;margin-bottom:5px}.weather-widget__wrapper input{width:80%}.weather-widget__wrapper button{width:20%}.weather-widget__input{padding:5px 10px;border-radius:2px;border:1px solid #dcdcdc;outline:none;box-sizing:border-box;width:80%;font-size:inherit;font-family:inherit;display:inline-block;vertical-align:middle}.weather-widget .fade-enter{opacity:0}.weather-widget .fade-enter-active{transition:opacity .1s ease-in!important}.weather-widget .fade-enter-to,.weather-widget .fade-leave{opacity:1}.weather-widget .fade-leave-active{transition:opacity .1s ease-out!important}.weather-widget .fade-leave-to{opacity:0}.weather-widget .fade-up-enter{transform:translateY(-10px);opacity:0}.weather-widget .fade-up-enter-active{transition:all .3s ease}.weather-widget .fade-up-enter-to,.weather-widget .fade-up-leave{transform:translate(0);opacity:1}.weather-widget .fade-up-leave-active{transition:all .1s ease}.weather-widget .fade-up-leave-to{transform:translateY(-10px);opacity:0}@-webkit-keyframes rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}@keyframes rotator{0%{transform:rotate(0deg)}to{transform:rotate(270deg)}}@-webkit-keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}@keyframes dash{0%{stroke-dashoffset:187}50%{stroke-dashoffset:46.75;transform:rotate(135deg)}to{stroke-dashoffset:187;transform:rotate(450deg)}}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -248,42 +233,6 @@ module.exports = function (cssWithMappingToString) {
 
 /***/ }),
 
-/***/ 667:
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    options = {};
-  }
-
-  if (!url) {
-    return url;
-  }
-
-  url = String(url.__esModule ? url.default : url); // If url is already wrapped in quotes, remove them
-
-  if (/^['"].*['"]$/.test(url)) {
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]|(%20)/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
-  }
-
-  return url;
-};
-
-/***/ }),
-
 /***/ 81:
 /***/ ((module) => {
 
@@ -296,25 +245,25 @@ module.exports = function (i) {
 
 /***/ }),
 
-/***/ 659:
+/***/ 19:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(139);
+var content = __webpack_require__(65);
 if(content.__esModule) content = content.default;
 if(typeof content === 'string') content = [[module.id, content, '']];
 if(content.locals) module.exports = content.locals;
 // add CSS to Shadow Root
-var add = (__webpack_require__(101)/* ["default"] */ .Z)
+var add = (__webpack_require__(339)/* ["default"] */ .Z)
 module.exports.__inject__ = function (shadowRoot) {
-  add("2a4ab68e", content, shadowRoot)
+  add("38718704", content, shadowRoot)
 };
 
 /***/ }),
 
-/***/ 101:
+/***/ 339:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -426,54 +375,6 @@ function addStyle (obj /* StyleObjectPart */, shadowRoot) {
 }
 
 
-/***/ }),
-
-/***/ 752:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.woff";
-
-/***/ }),
-
-/***/ 550:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-Bold.woff2";
-
-/***/ }),
-
-/***/ 16:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.woff";
-
-/***/ }),
-
-/***/ 339:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-Regular.woff2";
-
-/***/ }),
-
-/***/ 392:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiBold.woff";
-
-/***/ }),
-
-/***/ 941:
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiBold.woff2";
-
 /***/ })
 
 /******/ 	});
@@ -501,9 +402,6 @@ module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiBold.woff2";
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
-/******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -549,32 +447,6 @@ module.exports = __webpack_require__.p + "fonts/SourceSansPro-SemiBold.woff2";
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
 /******/ 		__webpack_require__.p = "";
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			864: 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		// no on chunks loaded
-/******/ 		
-/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /************************************************************************/
@@ -882,8 +754,8 @@ function wrap (Vue, Component) {
 
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/runtime/api.js
 var api = __webpack_require__(645);
-;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/WeatherWidget.vue?vue&type=template&id=c728dc8e&shadow
-var render = function render(){var _vm=this,_c=_vm._self._c;return _c('article',{staticClass:"weather-widget"},[(!_vm.loading)?_c('div',{staticClass:"weather-widget__container"},[_c('button',{key:"settings",staticClass:"weather-widget__button weather-widget__button--settings",on:{"click":_vm.onToggleMenu}},[_c('transition',{attrs:{"name":"fade","mode":"out-in"}},[(!_vm.menuActive)?_c('svg',{key:"gear",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 24 24"}},[_c('path',{attrs:{"fill-rule":"evenodd","d":"M16 12a4 4 0 11-8 0 4 4 0 018 0zm-1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"}}),_c('path',{staticClass:"weather-widget__gear",attrs:{"fill-rule":"evenodd","d":"M12 1c-.268 0-.534.01-.797.028-.763.055-1.345.617-1.512 1.304l-.352 1.45c-.02.078-.09.172-.225.22a8.45 8.45 0 00-.728.303c-.13.06-.246.044-.315.002l-1.274-.776c-.604-.368-1.412-.354-1.99.147-.403.348-.78.726-1.129 1.128-.5.579-.515 1.387-.147 1.99l.776 1.275c.042.069.059.185-.002.315-.112.237-.213.48-.302.728-.05.135-.143.206-.221.225l-1.45.352c-.687.167-1.249.749-1.304 1.512a11.149 11.149 0 000 1.594c.055.763.617 1.345 1.304 1.512l1.45.352c.078.02.172.09.22.225.09.248.191.491.303.729.06.129.044.245.002.314l-.776 1.274c-.368.604-.354 1.412.147 1.99.348.403.726.78 1.128 1.129.579.5 1.387.515 1.99.147l1.275-.776c.069-.042.185-.059.315.002.237.112.48.213.728.302.135.05.206.143.225.221l.352 1.45c.167.687.749 1.249 1.512 1.303a11.125 11.125 0 001.594 0c.763-.054 1.345-.616 1.512-1.303l.352-1.45c.02-.078.09-.172.225-.22.248-.09.491-.191.729-.303.129-.06.245-.044.314-.002l1.274.776c.604.368 1.412.354 1.99-.147.403-.348.78-.726 1.129-1.128.5-.579.515-1.387.147-1.99l-.776-1.275c-.042-.069-.059-.185.002-.315.112-.237.213-.48.302-.728.05-.135.143-.206.221-.225l1.45-.352c.687-.167 1.249-.749 1.303-1.512a11.125 11.125 0 000-1.594c-.054-.763-.616-1.345-1.303-1.512l-1.45-.352c-.078-.02-.172-.09-.22-.225a8.469 8.469 0 00-.303-.728c-.06-.13-.044-.246-.002-.315l.776-1.274c.368-.604.354-1.412-.147-1.99-.348-.403-.726-.78-1.128-1.129-.579-.5-1.387-.515-1.99-.147l-1.275.776c-.069.042-.185.059-.315-.002a8.465 8.465 0 00-.728-.302c-.135-.05-.206-.143-.225-.221l-.352-1.45c-.167-.687-.749-1.249-1.512-1.304A11.149 11.149 0 0012 1zm-.69 1.525a9.648 9.648 0 011.38 0c.055.004.135.05.162.16l.351 1.45c.153.628.626 1.08 1.173 1.278.205.074.405.157.6.249a1.832 1.832 0 001.733-.074l1.275-.776c.097-.06.186-.036.228 0 .348.302.674.628.976.976.036.042.06.13 0 .228l-.776 1.274a1.832 1.832 0 00-.074 1.734c.092.195.175.395.248.6.198.547.652 1.02 1.278 1.172l1.45.353c.111.026.157.106.161.161a9.653 9.653 0 010 1.38c-.004.055-.05.135-.16.162l-1.45.351a1.833 1.833 0 00-1.278 1.173 6.926 6.926 0 01-.25.6 1.832 1.832 0 00.075 1.733l.776 1.275c.06.097.036.186 0 .228a9.555 9.555 0 01-.976.976c-.042.036-.13.06-.228 0l-1.275-.776a1.832 1.832 0 00-1.733-.074 6.926 6.926 0 01-.6.248 1.833 1.833 0 00-1.172 1.278l-.353 1.45c-.026.111-.106.157-.161.161a9.653 9.653 0 01-1.38 0c-.055-.004-.135-.05-.162-.16l-.351-1.45a1.833 1.833 0 00-1.173-1.278 6.928 6.928 0 01-.6-.25 1.832 1.832 0 00-1.734.075l-1.274.776c-.097.06-.186.036-.228 0a9.56 9.56 0 01-.976-.976c-.036-.042-.06-.13 0-.228l.776-1.275a1.832 1.832 0 00.074-1.733 6.948 6.948 0 01-.249-.6 1.833 1.833 0 00-1.277-1.172l-1.45-.353c-.111-.026-.157-.106-.161-.161a9.648 9.648 0 010-1.38c.004-.055.05-.135.16-.162l1.45-.351a1.833 1.833 0 001.278-1.173 6.95 6.95 0 01.249-.6 1.832 1.832 0 00-.074-1.734l-.776-1.274c-.06-.097-.036-.186 0-.228.302-.348.628-.674.976-.976.042-.036.13-.06.228 0l1.274.776a1.832 1.832 0 001.734.074 6.95 6.95 0 01.6-.249 1.833 1.833 0 001.172-1.277l.353-1.45c.026-.111.106-.157.161-.161z"}})]):_c('svg',{key:"close",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 1024 1024"}},[_c('path',{attrs:{"d":"M764.288 214.592L512 466.88 259.712 214.592a31.936 31.936 0 00-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1045.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0045.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 10-45.12-45.184z"}})])])],1),_vm._l((_vm.locationFields),function(field,index){return _c('div',{staticClass:"weather-widget__field"},[_c('div',{staticClass:"weather-widget__header"},[_c('h2',{staticClass:"weather-widget__title"},[_vm._v(_vm._s(field.city)+", "+_vm._s(field.country))])]),_c('div',{staticClass:"weather-widget__temperature"},[_c('div',{staticClass:"weather-widget__image"},[_c('img',{attrs:{"src":`http://openweathermap.org/img/wn/${field.icon}@2x.png`,"alt":field.icon}})]),_c('span',[_vm._v(_vm._s(field.temp)+"°C")])]),_c('p',{staticClass:"weather-widget__description"},[_vm._v("Feels like "+_vm._s(field.feelsLike)+"°C. "+_vm._s(field.description)+". "+_vm._s(_vm.getUsefulInformation(index))+".")]),_c('ul',{staticClass:"weather-widget__data"},[_c('li',[_c('p',[_vm._v(" "+_vm._s(field.windSpeed)+"m/s ")])]),_c('li',[_c('p',[_vm._v(" "+_vm._s(field.pressure)+"hPa ")])])]),_c('div',{staticClass:"weather-widget__information"},_vm._l((field.information),function(item){return _c('p',{staticClass:"weather-widget__text"},[_vm._v(" "+_vm._s(item.text)+" ")])}),0)])}),_c('transition',{attrs:{"name":"fade-up","mode":"out-in"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.menuActive),expression:"menuActive"}],staticClass:"weather-widget__menu"},[_c('div',{staticClass:"weather-widget__header"},[_c('h2',{staticClass:"weather-widget__title"},[_vm._v("Settings")])]),_c('div',{staticClass:"weather-widget__list"},_vm._l((_vm.locationFields),function(field,index){return _c('div',{key:index,staticClass:"weather-widget__location"},[_c('button',{staticClass:"weather-widget__button weather-widget__button--drag",attrs:{"disabled":!(_vm.locationFields.length > 1)}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 24 24","data-name":"Layer 1"}},[_c('path',{attrs:{"d":"M8.5,10a2,2,0,1,0,2,2A2,2,0,0,0,8.5,10Zm0,7a2,2,0,1,0,2,2A2,2,0,0,0,8.5,17Zm7-10a2,2,0,1,0-2-2A2,2,0,0,0,15.5,7Zm-7-4a2,2,0,1,0,2,2A2,2,0,0,0,8.5,3Zm7,14a2,2,0,1,0,2,2A2,2,0,0,0,15.5,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,15.5,10Z"}})])]),_c('p',[_vm._v(_vm._s(field.city)+", "+_vm._s(field.country))]),_c('button',{staticClass:"weather-widget__button weather-widget__button--delete",attrs:{"disabled":!(_vm.locationFields.length > 1)},on:{"click":function($event){return _vm.deleteFromLocationFields(index)}}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 16 16","fill":"currentColor"}},[_c('path',{attrs:{"d":"M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"}}),_c('path',{attrs:{"fill-rule":"evenodd","d":"M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"}})])])])}),0),_c('div',{staticClass:"weather-widget__include"},[_c('label',{staticClass:"weather-widget__label"},[_vm._v("Add location:")]),_c('div',{staticClass:"weather-widget__wrapper"},[_c('input',{staticClass:"weather-widget__input",attrs:{"placeholder":"Enter your location","type":"text"}}),_c('button',{staticClass:"weather-widget__button weather-widget__button--enter"},[_c('svg',{staticClass:"icon",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 1024 1024"}},[_c('path',{attrs:{"d":"M864 170h-60c-4.4 0-8 3.6-8 8v518H310v-73c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 0 0 0 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-75h498c35.3 0 64-28.7 64-64V178c0-4.4-3.6-8-8-8z"}})])])])])])])],2):_c('div',{staticClass:"weather-widget__loading"},[(_vm.errorMessage)?_c('p',[_vm._v(" "+_vm._s(_vm.errorMessage)+" ")]):_c('svg',{attrs:{"width":"65px","height":"65px","viewBox":"0 0 66 66","xmlns":"http://www.w3.org/2000/svg"}},[_c('circle',{attrs:{"fill":"none","stroke-width":"6","stroke-linecap":"round","cx":"33","cy":"33","r":"30"}})])])])
+;// CONCATENATED MODULE: ./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[2]!./node_modules/@vue/vue-loader-v15/lib/index.js??vue-loader-options!./src/components/WeatherWidget.vue?vue&type=template&id=1dd52c34&shadow
+var render = function render(){var _vm=this,_c=_vm._self._c;return _c('article',{staticClass:"weather-widget",style:({'font-family': _vm.font})},[(!_vm.loading)?_c('div',{staticClass:"weather-widget__container"},[_c('button',{key:"settings",staticClass:"weather-widget__button weather-widget__button--settings",on:{"click":_vm.onToggleMenu}},[_c('transition',{attrs:{"name":"fade","mode":"out-in"}},[(!_vm.menuActive)?_c('svg',{key:"gear",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 24 24"}},[_c('path',{attrs:{"fill-rule":"evenodd","d":"M16 12a4 4 0 11-8 0 4 4 0 018 0zm-1.5 0a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"}}),_c('path',{staticClass:"weather-widget__gear",attrs:{"fill-rule":"evenodd","d":"M12 1c-.268 0-.534.01-.797.028-.763.055-1.345.617-1.512 1.304l-.352 1.45c-.02.078-.09.172-.225.22a8.45 8.45 0 00-.728.303c-.13.06-.246.044-.315.002l-1.274-.776c-.604-.368-1.412-.354-1.99.147-.403.348-.78.726-1.129 1.128-.5.579-.515 1.387-.147 1.99l.776 1.275c.042.069.059.185-.002.315-.112.237-.213.48-.302.728-.05.135-.143.206-.221.225l-1.45.352c-.687.167-1.249.749-1.304 1.512a11.149 11.149 0 000 1.594c.055.763.617 1.345 1.304 1.512l1.45.352c.078.02.172.09.22.225.09.248.191.491.303.729.06.129.044.245.002.314l-.776 1.274c-.368.604-.354 1.412.147 1.99.348.403.726.78 1.128 1.129.579.5 1.387.515 1.99.147l1.275-.776c.069-.042.185-.059.315.002.237.112.48.213.728.302.135.05.206.143.225.221l.352 1.45c.167.687.749 1.249 1.512 1.303a11.125 11.125 0 001.594 0c.763-.054 1.345-.616 1.512-1.303l.352-1.45c.02-.078.09-.172.225-.22.248-.09.491-.191.729-.303.129-.06.245-.044.314-.002l1.274.776c.604.368 1.412.354 1.99-.147.403-.348.78-.726 1.129-1.128.5-.579.515-1.387.147-1.99l-.776-1.275c-.042-.069-.059-.185.002-.315.112-.237.213-.48.302-.728.05-.135.143-.206.221-.225l1.45-.352c.687-.167 1.249-.749 1.303-1.512a11.125 11.125 0 000-1.594c-.054-.763-.616-1.345-1.303-1.512l-1.45-.352c-.078-.02-.172-.09-.22-.225a8.469 8.469 0 00-.303-.728c-.06-.13-.044-.246-.002-.315l.776-1.274c.368-.604.354-1.412-.147-1.99-.348-.403-.726-.78-1.128-1.129-.579-.5-1.387-.515-1.99-.147l-1.275.776c-.069.042-.185.059-.315-.002a8.465 8.465 0 00-.728-.302c-.135-.05-.206-.143-.225-.221l-.352-1.45c-.167-.687-.749-1.249-1.512-1.304A11.149 11.149 0 0012 1zm-.69 1.525a9.648 9.648 0 011.38 0c.055.004.135.05.162.16l.351 1.45c.153.628.626 1.08 1.173 1.278.205.074.405.157.6.249a1.832 1.832 0 001.733-.074l1.275-.776c.097-.06.186-.036.228 0 .348.302.674.628.976.976.036.042.06.13 0 .228l-.776 1.274a1.832 1.832 0 00-.074 1.734c.092.195.175.395.248.6.198.547.652 1.02 1.278 1.172l1.45.353c.111.026.157.106.161.161a9.653 9.653 0 010 1.38c-.004.055-.05.135-.16.162l-1.45.351a1.833 1.833 0 00-1.278 1.173 6.926 6.926 0 01-.25.6 1.832 1.832 0 00.075 1.733l.776 1.275c.06.097.036.186 0 .228a9.555 9.555 0 01-.976.976c-.042.036-.13.06-.228 0l-1.275-.776a1.832 1.832 0 00-1.733-.074 6.926 6.926 0 01-.6.248 1.833 1.833 0 00-1.172 1.278l-.353 1.45c-.026.111-.106.157-.161.161a9.653 9.653 0 01-1.38 0c-.055-.004-.135-.05-.162-.16l-.351-1.45a1.833 1.833 0 00-1.173-1.278 6.928 6.928 0 01-.6-.25 1.832 1.832 0 00-1.734.075l-1.274.776c-.097.06-.186.036-.228 0a9.56 9.56 0 01-.976-.976c-.036-.042-.06-.13 0-.228l.776-1.275a1.832 1.832 0 00.074-1.733 6.948 6.948 0 01-.249-.6 1.833 1.833 0 00-1.277-1.172l-1.45-.353c-.111-.026-.157-.106-.161-.161a9.648 9.648 0 010-1.38c.004-.055.05-.135.16-.162l1.45-.351a1.833 1.833 0 001.278-1.173 6.95 6.95 0 01.249-.6 1.832 1.832 0 00-.074-1.734l-.776-1.274c-.06-.097-.036-.186 0-.228.302-.348.628-.674.976-.976.042-.036.13-.06.228 0l1.274.776a1.832 1.832 0 001.734.074 6.95 6.95 0 01.6-.249 1.833 1.833 0 001.172-1.277l.353-1.45c.026-.111.106-.157.161-.161z"}})]):_c('svg',{key:"close",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 1024 1024"}},[_c('path',{attrs:{"d":"M764.288 214.592L512 466.88 259.712 214.592a31.936 31.936 0 00-45.12 45.12L466.752 512 214.528 764.224a31.936 31.936 0 1045.12 45.184L512 557.184l252.288 252.288a31.936 31.936 0 0045.12-45.12L557.12 512.064l252.288-252.352a31.936 31.936 0 10-45.12-45.184z"}})])])],1),_vm._l((_vm.locationFields),function(field,index){return _c('div',{staticClass:"weather-widget__field"},[_c('div',{staticClass:"weather-widget__header"},[_c('h2',{staticClass:"weather-widget__title"},[_vm._v(_vm._s(field.city)+", "+_vm._s(field.country))])]),_c('div',{staticClass:"weather-widget__temperature"},[_c('div',{staticClass:"weather-widget__image"},[_c('img',{attrs:{"src":`https://openweathermap.org/img/wn/${field.icon}@2x.png`,"alt":field.icon}})]),_c('span',[_vm._v(_vm._s(field.temp)+"°C")])]),_c('p',{staticClass:"weather-widget__description"},[_vm._v("Feels like "+_vm._s(field.feelsLike)+"°C. "+_vm._s(field.description)+". "+_vm._s(_vm.getUsefulInformation(index))+".")]),_c('ul',{staticClass:"weather-widget__data"},[_c('li',[_c('p',[_vm._v(" "+_vm._s(field.windSpeed)+"m/s ")])]),_c('li',[_c('p',[_vm._v(" "+_vm._s(field.pressure)+"hPa ")])])]),_c('div',{staticClass:"weather-widget__information"},_vm._l((field.information),function(item){return _c('p',{staticClass:"weather-widget__text"},[_vm._v(" "+_vm._s(item.text)+" ")])}),0)])}),_c('transition',{attrs:{"name":"fade-up","mode":"out-in"}},[_c('div',{directives:[{name:"show",rawName:"v-show",value:(_vm.menuActive),expression:"menuActive"}],staticClass:"weather-widget__menu"},[_c('div',{staticClass:"weather-widget__header"},[_c('h2',{staticClass:"weather-widget__title"},[_vm._v("Settings")])]),_c('div',{staticClass:"weather-widget__list"},_vm._l((_vm.locationFields),function(field,index){return _c('div',{key:index,staticClass:"weather-widget__location"},[_c('button',{staticClass:"weather-widget__button weather-widget__button--drag",attrs:{"disabled":!(_vm.locationFields.length > 1)}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 24 24","data-name":"Layer 1"}},[_c('path',{attrs:{"d":"M8.5,10a2,2,0,1,0,2,2A2,2,0,0,0,8.5,10Zm0,7a2,2,0,1,0,2,2A2,2,0,0,0,8.5,17Zm7-10a2,2,0,1,0-2-2A2,2,0,0,0,15.5,7Zm-7-4a2,2,0,1,0,2,2A2,2,0,0,0,8.5,3Zm7,14a2,2,0,1,0,2,2A2,2,0,0,0,15.5,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,15.5,10Z"}})])]),_c('p',[_vm._v(_vm._s(field.city)+", "+_vm._s(field.country))]),_c('button',{staticClass:"weather-widget__button weather-widget__button--delete",attrs:{"disabled":!(_vm.locationFields.length > 1)},on:{"click":function($event){return _vm.deleteFromLocationFields(index)}}},[_c('svg',{attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 16 16","fill":"currentColor"}},[_c('path',{attrs:{"d":"M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"}}),_c('path',{attrs:{"fill-rule":"evenodd","d":"M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"}})])])])}),0),_c('div',{staticClass:"weather-widget__include"},[_c('label',{staticClass:"weather-widget__label"},[_vm._v("Add location:")]),_c('div',{staticClass:"weather-widget__wrapper"},[_c('input',{staticClass:"weather-widget__input",attrs:{"placeholder":"Enter your location","type":"text"}}),_c('button',{staticClass:"weather-widget__button weather-widget__button--enter"},[_c('svg',{staticClass:"icon",attrs:{"xmlns":"http://www.w3.org/2000/svg","width":"20px","height":"20px","viewBox":"0 0 1024 1024"}},[_c('path',{attrs:{"d":"M864 170h-60c-4.4 0-8 3.6-8 8v518H310v-73c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 0 0 0 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-75h498c35.3 0 64-28.7 64-64V178c0-4.4-3.6-8-8-8z"}})])])])])])])],2):_c('div',{staticClass:"weather-widget__loading"},[(_vm.errorMessage)?_c('p',[_vm._v(" "+_vm._s(_vm.errorMessage)+" ")]):_c('svg',{attrs:{"width":"65px","height":"65px","viewBox":"0 0 66 66","xmlns":"http://www.w3.org/2000/svg"}},[_c('circle',{attrs:{"fill":"none","stroke-width":"6","stroke-linecap":"round","cx":"33","cy":"33","r":"30"}})])])])
 }
 var staticRenderFns = []
 
@@ -896,6 +768,10 @@ var staticRenderFns = []
 		apiKey: {
 			type: String,
 			required: true
+		},
+		font: {
+			type: String,
+			default: 'Arial'
 		}
 	},
 	data() {
@@ -1114,7 +990,7 @@ function normalizeComponent(
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(485)
+  var style0 = __webpack_require__(373)
 if (style0.__inject__) style0.__inject__(context)
 
 }

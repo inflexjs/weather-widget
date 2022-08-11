@@ -1,6 +1,7 @@
 <template>
 	<article
 		class="weather-widget"
+		:style="{'font-family': font}"
 	>
 		<!-- Container -->
 		<div
@@ -29,7 +30,7 @@
 				</div>
 				<div class="weather-widget__temperature">
 					<div class="weather-widget__image">
-						<img :src="`http://openweathermap.org/img/wn/${field.icon}@2x.png`" :alt="field.icon">
+						<img :src="`https://openweathermap.org/img/wn/${field.icon}@2x.png`" :alt="field.icon">
 					</div>
 					<span>{{ field.temp }}°C</span>
 				</div>
@@ -144,6 +145,10 @@ export default {
 		apiKey: {
 			type: String,
 			required: true
+		},
+		font: {
+			type: String,
+			default: 'Arial'
 		}
 	},
 	data() {
@@ -260,8 +265,6 @@ export default {
 <style lang="scss">
 @use "sass:math";
 
-$fontFamilyName: 'Source Sans Pro';
-$fontFamilyNameWithoutSpaces: 'SourceSansPro';
 $settingsButtonZIndex: 3;
 $settingMenuZIndex: 2;
 
@@ -279,19 +282,6 @@ $boxShadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
 $menuListHeight: calc(100% - (53px + 20px + 25px)); // 53px - include, 20px - header, 25px - list margin-top + margin-bottom
 
-@mixin newFont($family,$pathName,$weight,$style: normal) {
-	@font-face {
-		font-family: '#{$family}';
-		src: url('/src/fonts/#{$pathName}.woff2') format('woff2'), url('/src/fonts/#{$pathName}.woff') format('woff');
-		font-weight: #{$weight};
-		font-style: $style;
-	}
-}
-
-@include newFont($fontFamilyName, '#{$fontFamilyNameWithoutSpaces}-Regular', 400);
-@include newFont($fontFamilyName, '#{$fontFamilyNameWithoutSpaces}-SemiBold', 600);
-@include newFont($fontFamilyName, '#{$fontFamilyNameWithoutSpaces}-Bold', 700);
-
 p, span, h2 {
 	margin: 0;
 	padding: 0;
@@ -299,7 +289,6 @@ p, span, h2 {
 
 .weather-widget {
 	position: relative;
-	font-family: $fontFamilyName, sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	color: $blackTextColor;
