@@ -1,5 +1,7 @@
 <template>
-	<article class="weather-widget">
+	<article
+		class="weather-widget"
+	>
 		<!-- Container -->
 		<div
 			v-if="!loading"
@@ -23,7 +25,7 @@
 				class="weather-widget__field"
 			>
 				<div class="weather-widget__header">
-					<h2 class="weather-widget__title">{{ field.city }}, RU</h2>
+					<h2 class="weather-widget__title">{{ field.city }}, {{ field.country }}</h2>
 				</div>
 				<div class="weather-widget__temperature">
 					<div class="weather-widget__image">
@@ -56,43 +58,50 @@
 			<!-- Widget menu -->
 			<transition name="fade-up" mode="out-in">
 				<div
-					v-if="menuActive"
+					v-show="menuActive"
 					class="weather-widget__menu"
 				>
-					<div class="weather-widget__container">
-						<div class="weather-widget__header">
-							<h2 class="weather-widget__title">Settings</h2>
+					<div class="weather-widget__header">
+						<h2 class="weather-widget__title">Settings</h2>
+					</div>
+					<div
+						class="weather-widget__list"
+					>
+						<div v-for="(field, index) in locationFields" :key="index" class="weather-widget__location">
+							<button
+								:disabled="!(locationFields.length > 1)"
+								class="weather-widget__button weather-widget__button--drag"
+							>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" data-name="Layer 1">
+									<path d="M8.5,10a2,2,0,1,0,2,2A2,2,0,0,0,8.5,10Zm0,7a2,2,0,1,0,2,2A2,2,0,0,0,8.5,17Zm7-10a2,2,0,1,0-2-2A2,2,0,0,0,15.5,7Zm-7-4a2,2,0,1,0,2,2A2,2,0,0,0,8.5,3Zm7,14a2,2,0,1,0,2,2A2,2,0,0,0,15.5,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,15.5,10Z"/>
+								</svg>
+							</button>
+							<p>{{ field.city }}, {{ field.country }}</p>
+							<button
+								:disabled="!(locationFields.length > 1)"
+								class="weather-widget__button weather-widget__button--delete"
+								@click="deleteFromLocationFields(index)"
+							>
+								<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor">
+									<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
+									<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
+								</svg>
+							</button>
 						</div>
-						<div class="weather-widget__list">
-							<div class="weather-widget__location">
-								<button class="weather-widget__button weather-widget__button--drag">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24" data-name="Layer 1">
-										<path d="M8.5,10a2,2,0,1,0,2,2A2,2,0,0,0,8.5,10Zm0,7a2,2,0,1,0,2,2A2,2,0,0,0,8.5,17Zm7-10a2,2,0,1,0-2-2A2,2,0,0,0,15.5,7Zm-7-4a2,2,0,1,0,2,2A2,2,0,0,0,8.5,3Zm7,14a2,2,0,1,0,2,2A2,2,0,0,0,15.5,17Zm0-7a2,2,0,1,0,2,2A2,2,0,0,0,15.5,10Z"/>
-									</svg>
-								</button>
-								<p>London, UK</p>
-								<button class="weather-widget__button weather-widget__button--delete">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor">
-										<path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5zm3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0V6z"/>
-										<path fill-rule="evenodd" d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118zM2.5 3V2h11v1h-11z"/>
-									</svg>
-								</button>
-							</div>
-						</div>
-						<div class="weather-widget__include">
-							<label class="weather-widget__label">Add location:</label>
-							<div class="weather-widget__wrapper">
-								<input
-									placeholder="Enter your location"
-									class="weather-widget__input"
-									type="text"
-								>
-								<button class="weather-widget__button weather-widget__button--enter">
-									<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024" class="icon">
-										<path d="M864 170h-60c-4.4 0-8 3.6-8 8v518H310v-73c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 0 0 0 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-75h498c35.3 0 64-28.7 64-64V178c0-4.4-3.6-8-8-8z"/>
-									</svg>
-								</button>
-							</div>
+					</div>
+					<div class="weather-widget__include">
+						<label class="weather-widget__label">Add location:</label>
+						<div class="weather-widget__wrapper">
+							<input
+								placeholder="Enter your location"
+								class="weather-widget__input"
+								type="text"
+							>
+							<button class="weather-widget__button weather-widget__button--enter">
+								<svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024" class="icon">
+									<path d="M864 170h-60c-4.4 0-8 3.6-8 8v518H310v-73c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 0 0 0 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-75h498c35.3 0 64-28.7 64-64V178c0-4.4-3.6-8-8-8z"/>
+								</svg>
+							</button>
 						</div>
 					</div>
 				</div>
@@ -154,6 +163,12 @@ export default {
 		onToggleMenu() {
 			this.menuActive = !this.menuActive
 		},
+		deleteFromLocationFields(index) {
+			console.log({index})
+			if (this.locationFields.length >= 1) {
+				this.locationFields.splice(index, 1)
+			}
+		},
 		setLocalStorageData(itemName, itemData) {
 			return localStorage.setItem(itemName, `{latitude:${itemData.latitude},longitude:${itemData.longitude}}`)
 		},
@@ -184,7 +199,7 @@ export default {
 							text: `Humidity: ${result.main.humidity}%`
 						},
 						{
-							text: `Visibility: ${result.visibility}m`
+							text: result.visibility > 1000 ? `Visibility: ${result.visibility / 1000}km` : `Visibility: ${result.visibility}m`
 						},
 						{
 							text: `Zone: UTC+${+result.timezone / 3600}`
@@ -262,7 +277,7 @@ $widgetBorder: 10px;
 
 $boxShadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 
-$menuListHeight: calc(100% - (53px + 20px + 30px + 40px)); // 53px - include, 20px - header, 40px - list margin-top + margin-bottom, 40px - top, bottom paddings
+$menuListHeight: calc(100% - (53px + 20px + 25px)); // 53px - include, 20px - header, 25px - list margin-top + margin-bottom
 
 p, span, h2 {
 	margin: 0;
@@ -279,11 +294,41 @@ p, span, h2 {
 	box-shadow: $boxShadow;
 	border-radius: $widgetBorder;
 	min-height: 270px;
+	overflow: hidden;
 	
 	&__container {
-		position: relative;
-		padding: 20px;
+		padding: 0 20px;
+		margin: 20px 5px 20px 0;
 		height: 100%;
+		display: flex;
+		flex-direction: column;
+		max-height: 650px;
+		overflow-x: hidden;
+		overflow-y: auto;
+		
+		&::-webkit-scrollbar {
+			width: 4px;
+		}
+		
+		&::-webkit-scrollbar-track {
+			background-color: transparent;
+			border-radius: 100px;
+		}
+		
+		&::-webkit-scrollbar-thumb {
+			background-color: transparent;
+			border-radius: 4px;
+		}
+		
+		&:hover {
+			&::-webkit-scrollbar-track {
+				background-color: rgba(255,255,255,0.1);
+			}
+			
+			&::-webkit-scrollbar-thumb {
+				background-color: $grayTextColor;
+			}
+		}
 	}
 	
 	&__field {
@@ -322,9 +367,25 @@ p, span, h2 {
 			transition: fill .1s ease-in;
 		}
 		
-		&:hover {
-			& svg {
-				fill: $blackTextColor;
+		&:disabled,
+		&[disabled] {
+			cursor: default;
+		}
+		
+		&:not(:disabled) {
+			&.weather-widget__button{
+				&:hover {
+					& svg {
+						fill: $blackTextColor;
+					}
+				}
+				&--delete {
+					&:hover {
+						& svg {
+							fill: $redTextColor;
+						}
+					}
+				}
 			}
 		}
 		
@@ -340,18 +401,13 @@ p, span, h2 {
 			top: 50%;
 			right: 5px;
 			transform: translateY(-50%);
-			
-			&:hover {
-				& svg {
-					fill: $redTextColor;
-				}
-			}
 		}
 		
 		&--drag {
 			display: inline-block;
 			vertical-align: middle;
 			margin-right: 5px;
+			cursor: grab;
 			
 			svg {
 				fill: $blackTextColor;
@@ -445,6 +501,8 @@ p, span, h2 {
 		
 		p {
 			text-align: center;
+			font-size: 18px;
+			font-weight: 600;
 		}
 		
 		svg {
@@ -464,6 +522,7 @@ p, span, h2 {
 	
 	&__menu {
 		position: absolute;
+		padding: 20px;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -474,6 +533,7 @@ p, span, h2 {
 	}
 	
 	&__list {
+		flex-grow: 1;
 		margin-top: 15px;
 		margin-bottom: 10px;
 		height: $menuListHeight;
@@ -546,7 +606,7 @@ p, span, h2 {
 			opacity: 0;
 			
 			&-active {
-				transition: opacity 0.233s ease-in !important;
+				transition: opacity 0.1s ease-in !important;
 			}
 			
 			&-to {
@@ -558,7 +618,7 @@ p, span, h2 {
 			opacity: 1;
 			
 			&-active {
-				transition: opacity 0.233s ease-out !important;
+				transition: opacity 0.1s ease-out !important;
 			}
 			
 			&-to {
