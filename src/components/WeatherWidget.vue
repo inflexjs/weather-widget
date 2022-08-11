@@ -19,7 +19,7 @@
 			</button>
 			<!-- Fields list -->
 			<div
-				v-for="field in locationFields"
+				v-for="(field, index) in locationFields"
 				class="weather-widget__field"
 			>
 				<div class="weather-widget__header">
@@ -31,7 +31,7 @@
 					</div>
 					<span>{{ field.temp }}°C</span>
 				</div>
-				<p class="weather-widget__description">Feels like {{ field.feelsLike }}°C. {{ field.description }}. {{ field.semiDescription }}.</p>
+				<p class="weather-widget__description">Feels like {{ field.feelsLike }}°C. {{ field.description }}. {{ getUsefulInformation(index) }}.</p>
 				<ul class="weather-widget__data">
 					<li>
 						<p>
@@ -40,7 +40,7 @@
 					</li>
 					<li>
 						<p>
-							{{ field.windPressure }}hPa
+							{{ field.pressure }}hPa
 						</p>
 					</li>
 				</ul>
@@ -132,11 +132,13 @@
 export default {
 	name: "weather-widget",
 	props: {
-		//
+		apiKey: {
+			type: String,
+			required: true
+		}
 	},
 	data() {
 		return {
-			apiKey: '755868e5616d4f4676952dc64461af68',
 			loading: true,
 			menuActive: false,
 			errorMessage: '',
@@ -165,33 +167,60 @@ export default {
 			.then(result => {
 				console.log({result})
 				this.locationFields.push({
+					id: result.id,
 					city: result.name, // 'Moscow'
 					country: result.sys.country, // 'RU'
 					icon: result.weather[0].icon, // '04n'
 					temp: Math.round(result.main.temp), // '14'
+					maxTemp: Math.round(result.main.temp_max), // '14'
+					minTemp: Math.round(result.main.temp_min), // '14'
 					feelsLike: Math.round(result.main.feels_like) , //'12'
 					description: result.weather[0].main, //'Clouds'
 					semiDescription: result.weather[0].description, // 'Scattered clouds'
 					windSpeed: result.wind.speed,
-					windPressure: result.main.pressure,
+					pressure: result.main.pressure,
 					information: [
 						{
-							text: `Humidity: ${result.main.humidity}`
+							text: `Humidity: ${result.main.humidity}%`
 						},
 						{
-							text: `Visibility: ${result.visibility}`
+							text: `Visibility: ${result.visibility}m`
 						},
 						{
-							text: `Timezone: ${result.timezone}`
+							text: `Zone: UTC+${+result.timezone / 3600}`
 						},
 						{
-							text: `Wind gust: ${result.wind.gust}`
+							text: `Gust: ${result.wind.gust}m/s`
+						},
+						{
+							text: `Cloudiness: ${result.clouds.all}%`
+						},
+						{
+							text: `Sea level: ${result.main.sea_level}m`
 						},
 					]
 				})
 			})
 			.catch(error => console.log(error))
 			.finally(() => this.loading = false)
+		},
+		getUsefulInformation(index) {
+			try {
+				const temp = this.locationFields[index].temp
+				const maxTemp = this.locationFields[index].maxTemp
+				const minTemp = this.locationFields[index].minTemp
+				if (temp > maxTemp) {
+					return `Now it is ${temp - maxTemp}°C more than the max temp today`
+				} else if (temp > minTemp) {
+					return `Now it is ${temp - minTemp}°C more than the min temp today`
+				} else if (temp === maxTemp) {
+					return 'This is the hottest record for today'
+				} else if (temp === minTemp) {
+					return 'This is the coldest reading today'
+				}
+			} catch (e) {
+				console.log(e)
+			}
 		},
 		initWidget() {
 			navigator.geolocation.getCurrentPosition(async ({ coords }) => {
@@ -206,9 +235,6 @@ export default {
 				this.loading = true
 			})
 		}
-	},
-	computed: {
-		//
 	},
 	mounted() {
 		this.initWidget()
@@ -369,12 +395,12 @@ p, span, h2 {
 	}
 	
 	&__description {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
 	}
 	
 	&__data {
 		padding: 0;
-		margin: 0 0 10px;
+		margin: 0 0 15px;
 		
 		li {
 			position: relative;
@@ -407,7 +433,7 @@ p, span, h2 {
 		break-inside: avoid;
 		
 		&+& {
-			margin-top: 5px;
+			margin-top: 10px;
 		}
 	}
 	

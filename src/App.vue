@@ -1,10 +1,20 @@
 <template>
   <div id="app">
 		<weather-widget
-			position="top-l2eft"
+			:api-key="apiKey"
 		/>
   </div>
 </template>
+
+<script>
+export default {
+	data() {
+		return {
+			apiKey: '755868e5616d4f4676952dc64461af68'
+		}
+	}
+}
+</script>
 
 <style lang="scss">
 body {
