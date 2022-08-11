@@ -17,7 +17,7 @@ npm run build
 ```html
 <head>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.8"></script>
-    <script src="dist/weather-widget.js"></script>
+    <script src="./dist/weather-widget.js"></script>
 </head>
 <body>
     <weather-widget api-key="your api key from www.openweathermap.org"></weather-widget>

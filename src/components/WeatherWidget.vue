@@ -259,7 +259,8 @@ export default {
 
 <style scoped lang="scss">
 @use "sass:math";
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+@import url('//fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
 $fontFamilyName: 'Source Sans Pro', sans-serif;
 $settingsButtonZIndex: 3;
