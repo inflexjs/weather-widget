@@ -1,0 +1,33 @@
+{
+  "name": "weather-widget",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/weather-widget.js",
+  "module": "./dist/weather-widget.js",
+  "browser": {
+    "./sfc": "src/WeatherWidget.vue"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/weather-widget.js",
+      "require": "./dist/weather-widget.js"
+    }
+  },
+  "author": "inflex",
+  "license": "ISC",
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --target wc --name weather-widget ./src/components/WeatherWidget.vue"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8",
+    "sass": "^1.54.4",
+    "sass-loader": "^13.0.2",
+    "typescript": "^4.6.4",
+    "vue": "^2.7.8",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "files": [
+    "dist"
+  ]
+}
