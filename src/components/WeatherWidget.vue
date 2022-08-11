@@ -1,9 +1,11 @@
 <template>
 	<article class="weather-widget">
+		<!-- Container -->
 		<div
 			v-if="!loading"
 			class="weather-widget__container"
 		>
+			<!-- Settings Button -->
 			<button @click="onToggleMenu" key="settings" class="weather-widget__button weather-widget__button--settings">
 				<transition name="fade" mode="out-in">
 					<svg v-if="!menuActive" key="gear" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 24 24">
@@ -15,6 +17,7 @@
 					</svg>
 				</transition>
 			</button>
+			<!-- Fields list -->
 			<div
 				v-for="field in locationFields"
 				class="weather-widget__field"
@@ -50,7 +53,7 @@
 					</p>
 				</div>
 			</div>
-			
+			<!-- Widget menu -->
 			<transition name="fade-up" mode="out-in">
 				<div
 					v-if="menuActive"
@@ -95,7 +98,7 @@
 				</div>
 			</transition>
 		</div>
-		
+		<!-- Loading template -->
 		<div
 			v-else
 			class="weather-widget__loading"
